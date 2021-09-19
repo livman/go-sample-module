@@ -24,3 +24,7 @@ func (s *PingPongServerImpl) StartPing(ctx context.Context, ping *pb.Ping) (*pb.
 
 	return &resp, nil
 }
+
+func GetPb() pb {
+	return pb
+}
