@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "github.com/livman/go-sample-module/pingpong"
+	pb "./pingpong"
 )
 
 // Implement pb.PingPongServer
